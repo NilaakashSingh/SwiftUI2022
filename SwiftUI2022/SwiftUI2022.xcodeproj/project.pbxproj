@@ -14,6 +14,7 @@
 		A47115C028507BBF001D9F2A /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47115BF28507BBF001D9F2A /* Contents.swift */; };
 		A47115C228508CCF001D9F2A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A47115C128508CCF001D9F2A /* README.md */; };
 		A47115C428508D92001D9F2A /* TableView.png in Resources */ = {isa = PBXBuildFile; fileRef = A47115C328508D92001D9F2A /* TableView.png */; };
+		A47115C62850ABD4001D9F2A /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47115C52850ABD4001D9F2A /* Charts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A47115BF28507BBF001D9F2A /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
 		A47115C128508CCF001D9F2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		A47115C328508D92001D9F2A /* TableView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableView.png; sourceTree = "<group>"; };
+		A47115C52850ABD4001D9F2A /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		A47115BD28507BA0001D9F2A /* Charts */ = {
 			isa = PBXGroup;
 			children = (
+				A47115C52850ABD4001D9F2A /* Charts.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				A47115B228506439001D9F2A /* HomeView.swift in Sources */,
 				A47115C028507BBF001D9F2A /* Contents.swift in Sources */,
+				A47115C62850ABD4001D9F2A /* Charts.swift in Sources */,
 				A47115B028506439001D9F2A /* SwiftUI2022App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

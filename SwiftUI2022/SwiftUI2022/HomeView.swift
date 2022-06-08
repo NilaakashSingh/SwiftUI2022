@@ -9,15 +9,15 @@ import SwiftUI
 
 struct HomeView: View {
     private var contents: [Content] {
-        Component.allCases.map { Content(featureName: $0.rawValue.replacingOccurrences(of: "_", with: " ")) }
+        Component.allCases.map { Content(featureName: $0.rawValue, navigationReference: $0) }
     }
 
     var body: some View {
         NavigationStack {
-            Table(contents) {
-                TableColumn("Available from 2022",
-                            value: \.featureName.localizedUppercase)
+            List(contents) { content in
+                Text(content.featureName)
             }
+            .listStyle(PlainListStyle())
             .navigationTitle("SwiftUI 2022")
         }
     }
