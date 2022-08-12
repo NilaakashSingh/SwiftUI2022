@@ -8,6 +8,6 @@ Below is very small example with tableview.
 
 ![alt text](https://github.com/NilaakashSingh/SwiftUI2022/blob/main/SwiftUI2022/SwiftUI2022/TableView.png)
 
-## Swift Charts with SwiftUI
+## Navigation Stack
 
-This is one of my most favourite feature.
+## SwiftUI Charts
